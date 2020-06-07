@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/todo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#1992C7"
+        android:lineSpacingExtra="18sp"
+        android:text="Todo list"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/secret_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_button"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#1992C7"
+        android:layout_marginTop="20dp"
+        android:text="Secret list"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/change_password_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secret_button"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#1992C7"
+        android:layout_marginTop="20dp"
+        android:text="Change Secret Password"
+        android:textSize="24sp" />
+
+</RelativeLayout>
